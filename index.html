@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment One</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,46 +14,61 @@
         </nav>
     </header> -->
     <main>
-        <section id="hero-area" class="container">
-            <div class="half=width">
-                <h1>Hello I'm<br><span>Tahsin Shahriar</span></h1>
-                <p>You might saw me jumping, climbing buildings and stopping trains. But nobody pays me a dime for that work.</p>
-                <button class="btn">HIRE ME</button>
-            </div>
-            <div class="half-width">
-                <img src="images/peter.png" alt="profile-photo-one">
+        <section id="hero-area">
+            <div class="container">
+                <div class="half-width text-area">
+                    <h1>Hello I'm<br><span class="styled-text">Tahsin Shahriar</span></h1>
+                    <p>You might saw me jumping, climbing buildings and stopping trains. But nobody pays me a dime for that work.</p>
+                    <button class="btn"><a href="https://www.linkedin.com/in/tahsinshahriar/" target="_blank">HIRE ME</a></button>
+                </div>
+                <div class="half-width">
+                    <img src="images/peter.png" alt="profile-photo-one">
+                </div>
+            </div>   
+        </section>
+        <section id="bio">
+            <div class="container">
+                <div class="half-width">
+                    <img src="images/peter_dream.png" alt="profile-photo-two">
+                </div>
+                <div class="half-width text-area">
+                    <h2>Biography</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores assumenda voluptatibus est ducimus illo in aliquid beatae, odio minima. Quaerat omnis vitae dignissimos, quidem dicta iusto! Voluptates modi fugiat deserunt.</p>
+                    <button class="btn"><a href="https://www.linkedin.com/in/tahsinshahriar/" target="_blank">Download CV</a></button>
+                </div>
             </div>
         </section>
-        <section id="bio" class="container">
-            <div class="half-width">
-                <img src="images/peter_dream.png" alt="profile-photo-two">
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="text-center">My Latest Work</h2>
+                <div class="three-slice">
+                    <img src="images/latest-work/work-1.png" alt="latest-work-one">
+                </div>
+                <div class="three-slice">
+                    <img src="images/latest-work/work-2.jpg" alt="latest-work-two">
+                </div>
+                <div class="three-slice">
+                    <img src="images/latest-work/work-3.jpg" alt="latest-work-three">
+                </div>
             </div>
-            <div class="half-width">
-                <h2>Biography</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores assumenda voluptatibus est ducimus illo in aliquid beatae, odio minima. Quaerat omnis vitae dignissimos, quidem dicta iusto! Voluptates modi fugiat deserunt.</p>
-                <button class="btn">Download CV</button>
-            </div>
-        </section>
-        <section id="portfolio" class="container">
-            <img src="images/latest-work/work-1.png" alt="latest-work-one">
-            <img src="images/latest-work/work-2.jpg" alt="latest-work-two">
-            <img src="images/latest-work/work-3.jpg" alt="latest-work-three">
         </section>
         <section id="testimonials" class="container">
-            <h2>What Clients are Saying</h2>
+            <h2 class="text-center">What Clients are Saying</h2>
             <div class="testimonial">
-                <img src="" alt="client-image-one">
+                <img src="images/client_avatar.png" alt="client-image-one">
                 <h3>Bruce Moccy</h3>
-                <p>Founder & CEO Alies</p>
+                <p class="client-name">Founder & CEO Alies</p>
                 <p class="quote">"Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum"</p>
             </div>
-            <div class="btn">
-                <p>Leave me a message in the</p>
-                <p>tahsinshahriar@outlook.com<p>
+        </section>
+        <section id="contact">
+            <div class="contact">
+            <p>Leave me a message in the</p>
+            <a href="mailto:tahsinshahriar@outlook.com">tahsinshahriar@outlook.com</a>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="container footer">
         <p>Tahsin Shahriar &copy; 2020 All Rights Reserved</p>
         <div class="social-icons">
             <a href="facebook.com/sfn008"><img src="" alt="facebook"></a>
